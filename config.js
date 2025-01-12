@@ -3,15 +3,15 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER.split("923346690239")
+global.owner = process.env.OWNER_NUMBER.split("254717520293")
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://Maher:Zubair@sigma-male.ggwx4gc.mongodb.net/?retryWrites=true&w=majority"
 global.port= process.env.PORT || 5000
 global.email = 'wasitec@gmail.com'
 global.github = 'https://github.com/itxxwasi/wasi-tech'
-global.location = 'pakistan'
+global.location = 'kenya'
 global.gurl = 'https://instagram.com/chwaseem565_' // add your username
-global.sudo = process.env.SUDO || '923135673658'
-global.devs = '923192173398';
+global.sudo = process.env.SUDO || '254717520293'
+global.devs = '254717520293';
 global.website = 'https://github.com/itxxwasi/wasi-tech' // Hello world
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/0e3ceca721a6e277dbb61.jpg'
 module.exports = {
